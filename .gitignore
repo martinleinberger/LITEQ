@@ -15,8 +15,14 @@ build/
 [Bb]in/
 [Oo]bj/
 
-# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
-!packages/*/build/
+temp/
+packages/
+
+
+#  Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
+# !packages/*/build/
+
+
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -46,6 +52,7 @@ build/
 *.log
 *.scc
 
+*.suo
 # Visual C++ cache files
 ipch/
 *.aps
