@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LITEQ", "LITEQ\LITEQ.fsproj", "{C2AA5879-974A-4C8E-BB74-ED90F72F0DDB}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SPARQLHttpProtocol", "..\..\..\Visual Studio 2012\Projects\SPARQLHttpProtocol\SPARQLHttpProtocol\SPARQLHttpProtocol.fsproj", "{4C5444B1-816B-454A-B65F-E78CE886F0A5}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SPARQLHttpProtocol", "..\SPARQLHttpProtocol\SPARQLHttpProtocol\SPARQLHttpProtocol.fsproj", "{4C5444B1-816B-454A-B65F-E78CE886F0A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
