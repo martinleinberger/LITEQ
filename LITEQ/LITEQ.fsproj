@@ -43,11 +43,14 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library1.fs" />
+    <Compile Include="SchemaInformation\SchemaInformation.fs" />
+    <Compile Include="TypeMapper\TypeMapper.fs" />
+    <Compile Include="NPQL\NPQL.fs" />
+    <Compile Include="Provider.fs" />
     <None Include="Script.fsx" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\SPARQLHttpProtocol\SPARQLHttpProtocol\SPARQLHttpProtocol.fsproj">
+    <ProjectReference Include="..\..\..\..\Visual Studio 2012\Projects\SPARQLHttpProtocol\SPARQLHttpProtocol\SPARQLHttpProtocol.fsproj">
       <Name>SPARQLHttpProtocol</Name>
       <Project>{4c5444b1-816b-454a-b65f-e78ce886f0a5}</Project>
       <Private>True</Private>
