@@ -50,6 +50,7 @@
     <Compile Include="ProvidedTypes\Signatures\ProvidedTypes.fsi" />
     <Compile Include="ProvidedTypes\Code\ProvidedTypes.fs" />
     <Compile Include="ProvidedTypes\Code\Debug.fs" />
+    <Compile Include="Configuration.fs" />
     <Compile Include="SchemaInformation\SchemaInformation.fs" />
     <Compile Include="TypeMapper\TypeMapper.fs" />
     <Compile Include="NPQL\NPQL.fs" />
