@@ -7,6 +7,12 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LITEQ", "LITEQ\LITEQ.fsproj
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SPARQLHttpProtocol", "..\SPARQLHttpProtocol\SPARQLHttpProtocol\SPARQLHttpProtocol.fsproj", "{4C5444B1-816B-454A-B65F-E78CE886F0A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F0CCCAE3-A99E-41A4-873C-9F54FED77E81}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
