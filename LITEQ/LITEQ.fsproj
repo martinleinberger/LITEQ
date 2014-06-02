@@ -54,7 +54,6 @@
     <Compile Include="TypeMapper\TypeMapper.fs" />
     <Compile Include="NPQL\NPQL.fs" />
     <Compile Include="Provider.fs" />
-    <None Include="Script.fsx" />
     <None Include="packages.config" />
     <None Include="app.config" />
   </ItemGroup>
