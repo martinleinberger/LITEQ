@@ -21,3 +21,7 @@ let initConf (filename : string) =
                   if not (line.StartsWith(";")) then yield (line.Split('=') |> (fun a -> a.[0].Trim(), a.[1].Trim())) ]
     prefixes <- [ for line in File.ReadAllLines(findConfVal ("prefixfile")) do
                       yield (line.Split('=') |> (fun a -> a.[0].Trim().ToLower(), a.[1].Trim())) ]
+//    printfn "%A" (readIni("liteq_config.txt"))
+//    printfn "%A" (getVal("key1"))
+//    printfn "%A" (getVal("key2"))
+//    Console.ReadLine() |> ignore

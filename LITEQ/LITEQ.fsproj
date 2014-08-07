@@ -57,7 +57,6 @@
     <Compile Include="Provider.fs" />
     <None Include="packages.config" />
     <None Include="app.config" />
-    <None Include="Script1.fsx" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\SPARQLHttpProtocol\SPARQLHttpProtocol\SPARQLHttpProtocol.fsproj">
